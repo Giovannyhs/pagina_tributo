@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@300;400&family=Lobster+Two:ital@1&display=swap");
+* {
+  font-family: "KoHo", sans-serif;
+  font-family: "Lobster Two", cursive;
+}
+body {
+  background: rgb(164, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(164, 14, 14, 1) 0%,
+    rgba(39, 64, 151, 1) 42%,
+    rgba(85, 0, 85, 1) 100%
+  );
+}
+.container {
+  max-width: 1100;
+  margin: 0 auto;
+}
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.menu .logo {
+  font-weight: 700;
+}
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+  display: block;
+}
